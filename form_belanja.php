@@ -12,7 +12,7 @@
   <div class="container">
   <div class="container">  
   <div class="form-group row ml-auto mr-auto">
-      <label for="kostumer" class="col-4 col-form-label">Costumer</label> 
+      <label for="customer" class="col-4 col-form-label">Customer</label> 
       <div class="col-8">
         <input id="kostumer" name="kostumer" type="text" class="form-control">
       </div>
@@ -67,7 +67,7 @@
 
   $total = $harga * $jumlah;
   
-  echo 'Nama Costumer : '.$kostumer;
+  echo 'Nama Customer : '.$customer;
   echo "<br>Produk Pilihan : $produk";
   echo '<br>Jumlah Beli : '.$jumlah;
   echo '<br>Total Belanja : Rp. '.$total;
