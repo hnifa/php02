@@ -73,6 +73,5 @@ switch ($predikat) {
         break;
     default: 
         echo "<br>Predikat : Tidak ada";
-        break;
 }
 ?>
