@@ -61,7 +61,7 @@
   elseif($produk == "Kulkas") {
       $harga = 3100000;
   }
-  elseif ($produk == "Mesin Cuci") {
+  else{
       $harga = 3800000;
   }
 
